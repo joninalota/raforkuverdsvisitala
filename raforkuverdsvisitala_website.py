@@ -130,7 +130,9 @@ with col1:
 
 with col2:
     st.markdown(f"""
-    <div style="text-align: center; padding: 20px; border-radius: 8px; border: 2px solid #f0f2f6; height: 240px; display: flex; flex-direction: column; justify-content: center;">
+    <div style="text-align: center; padding: 20px; border-radius: 8px; border: 2px solid #f0f2f6; 
+                background-color: #ffffff; height: 240px; display: flex; flex-direction: column; 
+                justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
         <p style="margin: 0; font-size: 1.2em; font-weight: bold; color: {BLUE_DARK};">Raforkuverðsvísitala</p>
         <p style="margin: 0; font-size: 3.5em; font-weight: bold; color: {BLUE_LIGHT};">{latest_idx:.1f}</p>
         <p style="margin: 0; font-size: 1em; font-style: italic; color: #666666;">(m.v. árið {entry_ref})</p>
@@ -139,7 +141,9 @@ with col2:
 
 with col3:
     st.markdown(f"""
-    <div style="text-align: center; padding: 20px; border-radius: 8px; border: 2px solid #f0f2f6; height: 240px; display: flex; flex-direction: column; justify-content: center;">
+    <div style="text-align: center; padding: 20px; border-radius: 8px; border: 2px solid #f0f2f6; 
+                background-color: #ffffff; height: 240px; display: flex; flex-direction: column; 
+                justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
         <p style="margin: 0; font-size: 1.2em; font-weight: bold; color: {BLUE_DARK};">Raforkuverðsvísitala núvirt</p>
         <p style="margin: 0; font-size: 3.5em; font-weight: bold; color: {BLUE_LIGHT};">{latest_idx_n:.1f}</p>
         <p style="margin: 0; font-size: 0.9em; font-style: italic; color: #666666;">Hækkun umfram verðlag m.v. VNV (m.v. árið {entry_ref})</p>
