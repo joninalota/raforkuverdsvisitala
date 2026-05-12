@@ -63,8 +63,8 @@ if os.path.exists(FILE_LOGO):
 st.sidebar.title("Forsendur")
 
 entry_ref = st.sidebar.number_input("Viðmiðunarár", min_value=2011, max_value=2025, value=2016, format="%d")
-entry_klst = st.sidebar.number_input("Nýtingartími (klst)", value=4500, format="%d")
-entry_afl = st.sidebar.number_input("Afl (kW)", value=1000, format="%d")
+entry_klst = st.sidebar.number_input("Nýtingartími (klst)", value=4150, format="%d")
+entry_afl = st.sidebar.number_input("Afl (kW)", value=3200, format="%d")
 area_var = st.sidebar.selectbox("Svæði", ["Þéttbýli", "Dreifbýli"])
 
 # --- CALCULATIONS ---
